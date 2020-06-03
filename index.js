@@ -2,7 +2,7 @@ const express = require('express');
 const hbs = require('hbs');
 const mongoose = require('mongoose');
 
-const PUERTO = process.env.PORT || 8080;
+const PUERTO = process.env.PORT || 3000;
 
 let pintoresRouter = require('./routes/pintor');
 const app = express();
